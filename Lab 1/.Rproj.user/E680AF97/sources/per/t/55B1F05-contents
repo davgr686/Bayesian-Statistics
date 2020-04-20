@@ -1,0 +1,19 @@
+####  X = c(1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+
+prior = runif(100000,0,1)
+
+likfun <- function(theta) {
+   sapply( theta, function(t) (  (t**3)*(1-t)**27) )
+ }
+
+tmp <- likfun(prior)
+
+post <- sample( prior, 100000, replace=TRUE, prob=tmp )
+
+hist(post, 30)
+sd(post)
+mean(post)
+
+
+
+

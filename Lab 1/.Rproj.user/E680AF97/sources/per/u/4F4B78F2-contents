@@ -1,0 +1,6 @@
+samples <- rnorm(10000, 2, 1)
+plot(density(samples))
+grid <- seq(-1, 6, 0.01)
+ps <- dnorm(grid, 2, 1)
+plot(grid, ps, type='l', col="green")
+lines(density(samples), col='red')

@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586342965403.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3438182860",
+    "id" : "8ED2E26D",
+    "lastKnownWriteTime" : 1586423149,
+    "last_content_update" : 1586423149619,
+    "path" : "~/Bayesian Learning - 732A91/Lab 1/part 3.R",
+    "project_path" : "part 3.R",
+    "properties" : {
+        "cursorPosition" : "18,0",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
